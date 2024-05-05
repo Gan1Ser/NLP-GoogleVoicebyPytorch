@@ -19,15 +19,7 @@ NLP谷歌语音指令训练大作业
 
 ## （二）CNN卷积神经网络
 
-​		对于卷积的定义，其连续形式如下：
-$$
-(f×g)(n)=\int_{-\infty}^{\infty}f(\tau )g(n-\tau)d\tau
-$$
-其离散形式如下：
-$$
-(f×g)(n)=\sum_{\tau=-\infty}^{\infty}f(\tau)g(n-\tau)
-$$
-上述公式中有一个共同的特征：${n=\tau + (n - \tau)}$。对于这个特征，可以令${x={\tau},y={n-\tau}}$，那么${x+y=n}$就是一些直线如下图所示。
+​		对于卷积的定义。对于这个特征，可以令${x={\tau},y={n-\tau}}$，那么${x+y=n}$就是一些直线如下图所示。
 
 ![](https://npm.elemecdn.com/justlovesmile-img/v2-8be52f6bada3f7a21cebfc210d2e7ea0_hd.gif)
 
